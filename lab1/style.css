@@ -1,0 +1,78 @@
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.bg-image{
+    background-image: url('https://t4.ftcdn.net/jpg/02/75/28/95/360_F_275289557_YptaQZDnGnDkcgm8b792ItXOqvvkTQAr.jpg');
+}
+
+.logo{
+    height: 28px;
+}
+
+.forma{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    background-color:rgb(214, 214, 214);
+    border-radius: 25px;
+}
+
+.btn btn-success{
+    margin-top: 15px;
+}
+
+.custom-navbar{
+    background-color:rgb(214, 214, 214);
+}
+
+.nav-link{
+    font-size: 1.1em;
+}
+
+.navbar li{
+    margin-right: 15px;
+}
+
+.nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: translateY(-3px);
+}
+
+#myCarousel{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+@keyframes buttonScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    animation: buttonScale 0.5s infinite;
+}
+
